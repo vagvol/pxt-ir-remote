@@ -1,7 +1,7 @@
 {
     "name": "pxt-ir-remote",
     "version": "0.0.0",
-    "description": "infrared remote control for microbit.",
+    "description": "infrared remote control for microbit",
     "dependencies": {
         "core": "*"
     },
