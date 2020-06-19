@@ -55,7 +55,7 @@ const enum IrButton {
  * Write the date: 2020-6-19
  */
 //% color="#ff6800" weight=10 icon="\uf1eb"
-namespace irReceiver {
+namespace irRemote {
     /**
      * define a IR receiver class
      */
