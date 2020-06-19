@@ -29,3 +29,19 @@
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+tutorials:
+
+//Initialize infrared receiver using digitalPin
+
+irReceiver.connectInfrared(Pin: DigitalPin)
+
+//Key value on infrared transmitter
+
+irReceiver.irButton(button: IrButton)
+
+//Return IR button value
+
+//It will always return 0 when no button is pressed
+
+irReceiver.returnIrButton()
