@@ -210,6 +210,7 @@ namespace irRemote {
     //% weight=97
     export function returnIrButton(): number {
         irDataProcessing();
+        basic.pause(80);      //Delay by one infrared receiving period
         return IR_R.command;
     }
 }
