@@ -9,7 +9,8 @@
     "files": [
         "README.md",
         "ReceiverIR.cpp",
-        "main.ts"
+        "main.ts",
+        "ir.ts"
     ],
     "testFiles": [
         "test.ts"
